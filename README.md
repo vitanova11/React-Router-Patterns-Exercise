@@ -19,6 +19,7 @@ App.defaultProps = {
       age: 5,
       src: whiskey,
       facts: [
+      
         "Whiskey loves eating popcorn.",
         "Whiskey is a terrible guard dog.",
         "Whiskey wants to cuddle with you!"
