@@ -56,6 +56,7 @@ App.defaultProps = {
     }
   ]
 }
+
 The <App /> should render:
 
 * a <Nav /> component with the dogs’ names passed as props
@@ -114,10 +115,13 @@ Build a calculator that supports routes like:
 
 /add/1/2
 should render a component that displays 3.
+
 /subtract/3/2
 should render a component that displays 1.
+
 /multiply/6/4
 should render a component that displays 24.
+
 /divide/20/5
 should render a component that displays 4.
 
