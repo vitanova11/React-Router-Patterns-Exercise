@@ -12,21 +12,19 @@ The routes should look like this:
 ### Recommended Structure
 You can preload the <App /> component with the following defaultProps for convenience:
 
+```
  App.defaultProps = {
-  dogs: 
-  [
+  dogs: [
     {
       name: "Whiskey",
       age: 5,
       src: whiskey,
       facts: [
-      
         "Whiskey loves eating popcorn.",
         "Whiskey is a terrible guard dog.",
         "Whiskey wants to cuddle with you!"
       ]
     },
-    
      {
       name: "Duke",
       age: 3,
@@ -37,7 +35,6 @@ You can preload the <App /> component with the following defaultProps for conven
         "Duke enjoys pawing other dogs."
       ]
     },
-    
     {
       name: "Perry",
       age: 4,
@@ -48,7 +45,6 @@ You can preload the <App /> component with the following defaultProps for conven
         "Perry hates the rain."
       ]
     },
-    
     {
       name: "Tubby",
       age: 4,
@@ -61,6 +57,7 @@ You can preload the <App /> component with the following defaultProps for conven
     }
   ]
 }
+```
 
 The <App /> should render:
 
